@@ -26,7 +26,7 @@
 	<repositories>
 	  <repository>
 	    <id>local</id>
-	    <url>file://${project.basedir}/../../peercoinj/core/target/</url>
+	    <url>file://${project.basedir}/../../litedogej/core/target/</url>
 	  </repository>
 	</repositories>
 
@@ -43,15 +43,15 @@
 
 		<!-- com.matthewmitchell.peercoin_android_wallet.integration.android.* -->
 		<dependency>
-			<groupId>com.matthewmitchell.peercoin_android_wallet</groupId>
+			<groupId>com.matthewmitchell.litedoge_android_wallet</groupId>
 			<artifactId>integration-android</artifactId>
 			<version>3.2</version>
 		</dependency>
 
-		<!-- com.matthewmitchell.peercoinj.* -->
+		<!-- com.matthewmitchell.litedogej.* -->
 		<dependency>
 			<groupId>com.matthewmitchell</groupId>
-			<artifactId>peercoinj</artifactId>
+			<artifactId>litedogej</artifactId>
 			<version>0.13.1</version>
 		</dependency>
 
